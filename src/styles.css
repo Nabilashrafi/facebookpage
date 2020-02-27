@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100%;
+}
+.fbheader {
+  background-color: #3b5998;
+
+  min-height: 84px;
+  color: #fff;
+}
+
+ul li {
+  list-style-type: none;
+  float: left;
+  padding: 5px 10px;
+}
+.button {
+  width: 100%;
+  background-color: darkblue;
+  margin-top: 20px;
+  border: 1px solid blue;
+}
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input:focus {
+  background-color: lightblue;
+  border: 4px solid #cceeff;
+}
+
+input[name="custom_width"] {
+  width: 79%;
+}
+@media (max-width: 991px) {
+  input[name="custom_width"] {
+    width: 40%;
+  }
+  .button {
+    width: 15%;
+  }
+}
